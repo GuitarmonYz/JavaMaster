@@ -6,20 +6,15 @@ import util.Displayer;
 import util.ListNode;
 import util.Solution;
 public class Launcher {
-    int[] array = {1};
 
     public static void main(String args[]){
         Launcher lan = new Launcher();
         lan.runSolution();
     }
     public void runSolution(){
-        Solution_155 sl = new Solution_155();
-        sl.push(-2);
-        sl.push(0);
-        sl.push(3);
-        sl.pop();
-        sl.pop();
-        sl.pop();
+        Solution_78 sl = new Solution_78();
+        int[] nums = {1,2,3};
+        sl.subsets(nums);
         //System.out.println(sl.getMin());
 
 
